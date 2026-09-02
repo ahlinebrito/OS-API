@@ -1,6 +1,7 @@
 # API de Controle de Ordens de Serviço (OS)
 
 API RESTful de exemplo feita com **Java 17 + Spring Boot 3** e banco **H2** em memória.
+O domínio escolhido — Ordens de Serviço — representa um cenário comum em empresas de logística e prestação de serviços: cada OS tem um número identificador único, um cliente vinculado, uma data de abertura e um status que evolui ao longo do processo (PENDENTE → EM_ANDAMENTO → CONCLUIDA, podendo também ser CANCELADA).
 
 ## Como rodar
 
